@@ -1286,13 +1286,13 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # SupportSemitransparency=1 # 0/1
 
 #  Desktop background scaled to full screen
-# DesktopBackgroundScaled=0 # 0/1
+DesktopBackgroundScaled=1 # 0/1
 
 #  Desktop background color
 # DesktopBackgroundColor="rgb:00/20/40"
 
 #  Desktop background image
-# DesktopBackgroundImage=""
+DesktopBackgroundImage="~/Pictures/wallpapers/blue2a.jpg"
 
 #  Color to announce for semi-transparent windows
 # DesktopTransparencyColor=""

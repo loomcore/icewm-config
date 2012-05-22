@@ -29,7 +29,7 @@ ColorActiveBorder="rgb:05/06/0A"
 ColorNormalBorder="rgb:05/06/0A"
 
 ### Menu ###
-MenuMouseTracking=1 
+MenuMouseTracking=1
 ShowMenuButtonIcon=0
 
 ColorNormalMenu="rgb:ff/ff/ff"
@@ -116,22 +116,43 @@ ColorMoveSizeStatus="rgb:ff/ff/ff"
 ColorMoveSizeStatusText="rgb:05/06/0A"
 
 
+## Font Specification
+#TitleFontNameXft		=	HeldustryFTVBasicBlack:size=10
+#MenuFontNameXft			=	sans-serif:size=10
+#MinimizedWindowFontNameXft	=	sans-serif:size=10
+#ActiveButtonFontNameXft		=	sans-serif:size=10
+#NormalButtonFontNameXft		=	sans-serif:size=10
+#ToolButtonFontNameXft		=	sans-serif:size=10
+#NormalWorkspaceFontNameXft	=	sans-serif:size=10
+#ActiveWorkspaceFontNameXft	=	sans-serif:size=10
+#QuickSwitchFontNameXft		=	HeldustryFTVBasicBlack:size=10
+#ListBoxFontNameXft		=	sans-serif:size=10
+#StatusFontNameXft		=	sans-serif:size=10
+#ToolTipFontNameXft		=	sans-serif:size=10
+#ActiveTaskBarFontNameXft	=	HeldustryFTVBasicBlack:size=10
+#NormalTaskBarFontNameXft	=	HeldustryFTVBasicBlack:size=10
+#ClockFontNameXft		=	HeldustryFTVBasicBlack:size=10
+#InputFontNameXft		=	sans-serif:size=10
+
+#TaskBarClockLeds=0
+
+
 # Font Specification
-TitleFontNameXft		=	HeldustryFTVBasicBlack:size=10
-MenuFontNameXft			=	sans-serif:size=10
-MinimizedWindowFontNameXft	=	sans-serif:size=10
-ActiveButtonFontNameXft		=	sans-serif:size=10
-NormalButtonFontNameXft		=	sans-serif:size=10
-ToolButtonFontNameXft		=	sans-serif:size=10
-NormalWorkspaceFontNameXft	=	sans-serif:size=10
-ActiveWorkspaceFontNameXft	=	sans-serif:size=10
-QuickSwitchFontNameXft		=	HeldustryFTVBasicBlack:size=10
-ListBoxFontNameXft		=	sans-serif:size=10
-StatusFontNameXft		=	sans-serif:size=10
-ToolTipFontNameXft		=	sans-serif:size=10
-ActiveTaskBarFontNameXft	=	HeldustryFTVBasicBlack:size=10
-NormalTaskBarFontNameXft	=	HeldustryFTVBasicBlack:size=10
-ClockFontNameXft		=	HeldustryFTVBasicBlack:size=10
-InputFontNameXft		=	sans-serif:size=10
+TitleFontNameXft		=	Roboto:size=8
+MenuFontNameXft			=	Roboto:size=8
+MinimizedWindowFontNameXft	=	Roboto::size=8
+ActiveButtonFontNameXft		=	Roboto:size=8
+NormalButtonFontNameXft		=	Roboto:size=8
+ToolButtonFontNameXft		=	Roboto:size=8
+NormalWorkspaceFontNameXft	=	Roboto:size=8
+ActiveWorkspaceFontNameXft	=	Roboto:size=8
+QuickSwitchFontNameXft		=	Roboto:size=8
+ListBoxFontNameXft		=	Roboto:size=8
+StatusFontNameXft		=	Roboto:size=8
+ToolTipFontNameXft		=	Roboto:size=8
+ActiveTaskBarFontNameXft	=	Roboto:size=8
+NormalTaskBarFontNameXft	=	Roboto:size=8
+ClockFontNameXft		=	Roboto:size=8
+InputFontNameXft		=	Roboto:size=8
 
 TaskBarClockLeds=0
