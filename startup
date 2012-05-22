@@ -1,0 +1,7 @@
+#!/bin/sh
+
+gksudo mount /dev/sda2 /media/WINDOWS
+idesk &
+gnome-volume-conrtol-applet &
+nm-applet &
+/home/phil/.fehbg

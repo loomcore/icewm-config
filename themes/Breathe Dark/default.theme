@@ -97,7 +97,8 @@ ColorInput="rgb:ff/ff/ff"
 ColorInputText="rgb:05/06/0A"
 
 ColorClock="rgb:05/06/0A"
-ColorClockText="rgb:ff/ff/ff"
+#ColorClockText="rgb:ff/ff/ff"
+ColorClockText="rgb:62/8C/B2"
 
 ColorCPUStatusUser="rgb:05/06/0A"
 ColorCPUStatusSystem="rgb:74/7c/b0"
