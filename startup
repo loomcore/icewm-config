@@ -2,6 +2,6 @@
 
 gksudo mount /dev/sda2 /media/WINDOWS
 idesk &
-gnome-volume-conrtol-applet &
-nm-applet &
+GTK2_RC_FILES=/home/phil/.icewm/trayicon.rc gnome-volume-conrtol-applet &
+GTK2_RC_FILES=/home/phil/.icewm/trayicon.rc nm-applet &
 /home/phil/.fehbg

@@ -1,0 +1,10 @@
+# Extension to Breathe (urukrama, 2007) to handle tray icons such as nm-applet
+# and gnome-volume-control-applet, by loomcore (05-2012)
+
+style "default" {
+bg[NORMAL]			= "#05060a"
+bg[ACTIVE]			= "#06060a"
+bg[PRELIGHT]		= "#05060a"
+bg[SELECTED]		= "#05060a"
+bg[INSENSITIVE]		= "#05060a"
+}
