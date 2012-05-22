@@ -1,0 +1,81 @@
+menu "Development" folder {
+	prog "DrRacket" - drracket
+	prog "Fluid" - fluid
+	prog "IDLE" - idle
+	prog "Leiningen REPL" - xterm -e lein repl
+	prog "Python" - xterm -e python
+	prog "Qt Assistant" - assistant
+	prog "Qt Designer" - designer
+	prog "Qt Linguist" - linguist
+}
+menu "Editors" folder {
+	prog "Emacs" - xterm -e emacs
+	prog "Nano" - xterm -e nano
+	prog "Vim" - xterm -e vim
+}
+menu "Games" folder {
+	menu "Emulators" folder {
+		prog "Gens" - gens
+		prog "QMC2" - qmc2
+		prog "ScummVM" - scummvm
+		prog "Snes9x" - snes9x-gtk
+	}
+	prog "OpenTTD" - openttd
+}
+menu "Graphics" folder {
+	prog "scanimage" - xterm -e scanimage
+	prog "XGlyph" - xglyph
+}
+menu "Multimedia" folder {
+	prog "ALSA mixer" - xterm -e alsamixer
+	prog "QjackCtl" - qjackctl
+}
+menu "Network" folder {
+	prog "Avahi SSH Server Browser" - bssh
+	prog "Avahi VNC Server Browser" - bvnc
+	prog "Chromium" - chromium
+	prog "FTP" - xterm -e ftp
+	prog "Google Music Manager" - google-musicmanager
+	prog "Lynx" - xterm -e lynx
+	prog "Mail" - xterm -e mail
+	prog "Talk" - xterm -e talk
+	prog "Telnet" - xterm -e telnet
+	prog "TkVNC" - xterm -e tkvnc
+}
+menu "Science" folder {
+	prog "GNU Octave" - xterm -e octave
+	prog "GNUplot" - xterm -e gnuplot
+	prog "R" - xterm -e R
+}
+menu "Shells" folder {
+	prog "Dash" - xterm -e dash -i
+	prog "dosbox Emulator" - dosbox
+	prog "Git" - xterm -e git
+	prog "rxvt-unicode" - urxvt
+	prog "Xterm" - xterm
+	prog "XTerm (Unicode)" - uxterm
+}
+menu "System" folder {
+	menu "Settings" folder {
+		menu "GNOME" folder {
+			prog "Adobe Flash Player" - flash-player-properties
+			prog "Network Connections" - nm-connection-editor
+		}
+	}
+	prog "Avahi Zeroconf Browser" - avahi-discover
+	prog "GParted" - gparted-pkexec
+	prog "pstree" - xterm -e /usr/bin/pstree.x11
+	prog "pstree" - xterm -e pstree
+	prog "pstree" - xterm -e pstree.x11
+	prog "Top" - xterm -e top
+}
+menu "Utilities" folder {
+	prog "7-Zip FM" - 7zFM
+	prog "Info" - xterm -e info
+	prog "Wordview" - wordview
+	prog "Xev" - xterm -e xev
+	prog "XFontSel" - xfontsel
+	prog "Xpdf" - xpdf
+	prog "Xrefresh" - xrefresh
+	prog "Xsetroot" - xsetroot
+}
