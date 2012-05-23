@@ -4,8 +4,9 @@
 # since modifications to this file will be discarded when you
 # (re)install icewm.
 #
-prog XTerm xterm xterm
-prog Chrome chrome chrome
+prog Terminal urxvt urxvt
+prog Chromium chromium chromium
+#prog Chrome chrome chrome
 prog "GNU Emacs" emacs emacs
 #prog FTE fte fte
 #prog Netscape netscape netscape

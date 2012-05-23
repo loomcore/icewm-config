@@ -9,7 +9,7 @@
 # You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by
 # XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
 #
-key "Alt+Ctrl+t"		xterm
+key "Alt+Ctrl+t"		urxvt
 key "Alt+Ctrl+f"		fte
 key "Alt+Ctrl+e"		nedit
 key "Alt+Ctrl+g"		gimp
@@ -39,4 +39,4 @@ key "XF86Eject"			eject
 
 # my own bindings
 
-key "Alt+F1" xterm
+key "Alt+F1" urxvt
