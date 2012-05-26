@@ -9,14 +9,14 @@
 # You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by
 # XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
 #
-key "Alt+Ctrl+t"		urxvt
+key "Alt+Ctrl+t"		gnome-terminal
 #key "Alt+Ctrl+f"		fte
 key "Alt+Ctrl+e"		emacs
 #key "Alt+Ctrl+g"		gimp
 #key "Alt+Ctrl+n"		netscape -noraise -remote openBrowser
 #key "Alt+Ctrl+b"		netscape -noraise -remote openBookmarks
 #key "Alt+Ctrl+m"		netscape -noraise -remote openURL(mailto:,new-window) 
-key "Alt+Ctrl+l"		xlock -mode noof
+#key "Alt+Ctrl+l"		xlock -mode noof
 
 #key "Alt+Ctrl+KP_Divide"	aumix -v -5		# lower volume
 #key "Alt+Ctrl+KP_Multiply"	aumix -v +5		# raise volume
@@ -40,4 +40,4 @@ key "XF86Eject"			eject
 
 # my own bindings
 
-key "Alt+F1" urxvt
+key "Alt+F1" gnome-terminal
